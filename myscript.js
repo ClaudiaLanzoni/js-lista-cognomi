@@ -20,7 +20,7 @@ for (var i = 0 ; i < arrayCognomi.length ; i++){    //per evitare che non funzio
     arrayCognomi[i] = arrayCognomi[i].charAt().toUpperCase() + arrayCognomi[i].slice(1);
 }
 
-nuovaListaCognomi = arrayCognomi.sort(); //metto in ordine alfabetico gli elementi dell'array
+let nuovaListaCognomi = arrayCognomi.sort(); //metto in ordine alfabetico gli elementi dell'array
 
 
 for (i = 0; i<nuovaListaCognomi.length; i++){   //stampo la lista in ordine alfabetico degli elementi dell'array
